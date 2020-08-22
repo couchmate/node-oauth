@@ -1,15 +1,25 @@
-{ "name" : "oauth"
-, "description" : "Library for interacting with OAuth 1.0, 1.0A, 2 and Echo.  Provides simplified client access and allows for construction of more complex apis and OAuth providers."
-, "version" : "0.9.15"
-, "directories" : { "lib" : "./lib" }
-, "main" : "index.js"
-, "author" : "Ciaran Jessup <ciaranj@gmail.com>"
-, "repository" : { "type":"git", "url":"http://github.com/ciaranj/node-oauth.git" }
-, "devDependencies": {
+{
+  "name": "@couchmate/oauth",
+  "description": "Library for interacting with OAuth 1.0, 1.0A, 2 and Echo.  Provides simplified client access and allows for construction of more complex apis and OAuth providers.",
+  "version": "0.9.16",
+  "directories": {
+    "lib": "./lib"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "main": "index.js",
+  "contributors": [
+    "Ciaran Jessup <ciaranj@gmail.com>",
+    "Matt Oliver <matt@couchmate.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ciaranj/node-oauth.git"
+  },
+  "devDependencies": {
     "vows": "0.5.x"
-  }
-, "scripts": {
+  },
+  "scripts": {
     "test": "make test"
-  }
-, "license": "MIT" 
+  },
+  "license": "MIT"
 }

@@ -13,9 +13,12 @@ Also provides rudimentary OAuth2 support, tested against facebook, github, fours
 
 Installation
 ============== 
+Add `@couchmate:registry=https://npm.pkg.github.com` to your .npmrc
 
-    $ npm install oauth
 
+    $ npm install @couchmate/oauth
+---
+    $ yarn add @couchmate/oauth
 
 Examples
 ==========

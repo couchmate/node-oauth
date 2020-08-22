@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/ciaranj/node-oauth.git"
+    "url": "http://github.com/couchmate/node-oauth.git"
   },
   "devDependencies": {
     "vows": "0.5.x"
